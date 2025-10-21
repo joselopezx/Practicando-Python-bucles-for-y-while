@@ -11,9 +11,8 @@ Inventario restante: <cantidad>" con cada venta y, al final, mostrar el mensaje
 "Inventario agotado".
 """
 inventario = 5
-j=5
 
-for i in range (inventario):
-    print(f"¡Venta realizada! Inventario restante: {j}")
-    j-=1
+while inventario>0:
+    print(f"¡Venta realizada! Inventario restante: {inventario}")
+    inventario-=1
 print("Inventario agotado")
