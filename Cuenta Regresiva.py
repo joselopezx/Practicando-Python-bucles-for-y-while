@@ -21,3 +21,13 @@ while numero > 0:
         print(f"Faltan solo {numero}, segundos restantes")
     numero-=1
 print("¡Aprovecha la promoción ahora!")
+
+"""
+for segundos in range(10, 0, -1):  
+    if segundos % 2 == 0: 
+        print(f"Faltan solo {segundos} segundos - ¡No pierdas esta oportunidad!")
+    else: 
+        print(f"La cuenta continúa: {segundos} segundos restantes.")
+
+print("¡Aprovecha la promoción ahora!")
+"""
